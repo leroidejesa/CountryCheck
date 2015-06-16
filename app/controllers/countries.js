@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Controller.extend({
   actions: {
-    submit: function() {
+    population: function() {
       this.transitionToRoute('country', this.get('countryname'));
     }
   }

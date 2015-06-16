@@ -1,12 +1,19 @@
-<h1>Country Lookup</h1>
+<!-- <h1>Country Lookup</h1> -->
 
-<form>
+<form class="form-inline">
   <div class="form-group">
     <label for="countryname">Country Name</label>
-    {{input value=countryname id="countryname"}}
+    {{input value=countryname id="countryname" class="form-control"}}
   </div>
+  <button class="btn btn-default" {{action 'population'}}>Search</button>
 
-  <button class="btn btn-primary" {{action 'submit'}}>Submit</button>
+
+  <ul class="nav nav-pills">
+      <li><a href="#" {{action 'population'}}>Population</a></li>
+      <li><a href="#">Menu 2</a></li>
+      <li><a href="#">Menu 3</a></li>
+    </ul>
+
 </form>
 
 <hr>
