@@ -1,0 +1,14 @@
+<h1>Country Lookup</h1>
+
+<form>
+  <div class="form-group">
+    <label for="countryname">Country Name</label>
+    {{input value=countryname id="countryname"}}
+  </div>
+
+  <button class="btn btn-primary" {{action 'submit'}}>Submit</button>
+</form>
+
+<hr>
+
+{{outlet}}
