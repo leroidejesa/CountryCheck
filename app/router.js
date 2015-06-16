@@ -7,7 +7,7 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.resource('countries', { path: '/'}, function() {
-    this.resource('country', {path: 'contact/:countryname'});
+    this.resource('country', {path: 'country/:countryname'});
   });
 });
 

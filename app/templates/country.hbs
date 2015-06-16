@@ -1,5 +1,9 @@
-<ul>
-  {{#each country in model}}
-    <li><span class="country-name"> {{country.name}} {{country.population}} </span></li>
-  {{/each}}
-</ul>
+{{#each country in model}}
+  <h1><span class="country-name"> {{country.name}}</span></h1>
+  <p>Latitude, Longitude: {{country.latlng}}</p>
+  <p>Region: {{country.subregion}}</p>
+  <p>Population: {{country.population}}</p>
+  <p>Timezones: {{country.timezones}}</p>
+  <p>Currencies: {{country.currencies}}</p>
+  <p>Capital: {{country.capital}}</p>
+{{/each}}
