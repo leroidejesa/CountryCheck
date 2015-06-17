@@ -1,7 +1,8 @@
 # Country:Check!
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+An app that allows users to retrieve country information such as population, latitude/longitude, and more, by simply typing a country name into the search bar. 
+
+API used: [REST Countries v1](https://www.mashape.com/fayder/rest-countries-v1)
 
 ## Prerequisites
 
@@ -38,10 +39,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
