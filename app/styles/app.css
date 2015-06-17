@@ -1,5 +1,37 @@
 .country-name {
-  color: green;
   font-weight: bold;
-  font-size: medium;
+  font-size: large;
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+#title {
+  font-family: 'Nothing You Could Do', cursive;
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-color: rgba(255,255,255, 0);
+  color: inherit;
+  padding: 1px;
+}
+
+.pagebody {
+  margin-left: 60px;
+}
+
+.btn {
+    /*border: black 1px;*/
+    border: 1px solid #949494;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: none;
+}
+
+.btn:hover {
+  color: #949494;
+}
+
+body {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/4/41/Background_paper.png");
+    background-size: cover;
 }
